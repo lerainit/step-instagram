@@ -1,7 +1,7 @@
-import modalReducer from "../../store/modal/reducer";
-import { openModal } from "../../store/modal/actions";
+import modalReducer from "./reducer";
+import { openModal } from "./actions";
 
-import { closeModal } from "../../store/modal/actions";
+import { closeModal } from "./actions";
 
 
  

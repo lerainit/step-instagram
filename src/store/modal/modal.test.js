@@ -1,8 +1,8 @@
 import {screen,fireEvent,render} from '@testing-library/react'
 import {Provider,useDispatch,useSelector} from 'react-redux'
-import store from '../../store'
+import store from '../index'
 
-import { openModalAC,closeModalAC } from '../../store/modal/actionCreators'
+import { openModalAC,closeModalAC } from './actionCreators'
 
 const MockedModal = () =>{
 return(
